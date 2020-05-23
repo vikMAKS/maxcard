@@ -1,0 +1,67 @@
+:root {
+    --bg: grey;
+    --text: black;
+    --cbg: orange;
+    --sbg: white;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+}
+.card {
+    width: 400px;
+    height: 290px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    background-color: var(--sbg);
+    border-bottom-left-radius: 4.5px;
+    border-bottom-right-radius: 4.5px;
+}
+.img {
+    width: 400px;
+    height: 150px;
+}
+.name {
+    text-align: center;
+    color: var(--cbg);
+    font-weight: 500;
+    font-size: 30px;
+}
+.sub {
+    text-align: center;
+    margin-top: -16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+    color: var(--text);
+}
+.text {
+    visibility: hidden;
+    margin-left: 15px;
+    color: var(--text);
+}
+.cbutton {
+    width: 80px;
+    height: 35px;
+    border: none;
+    color: white;
+    background-color: var(--cbg);
+    text-transform: uppercase;
+    transition: 0.3s;
+    outline: none;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.theme {
+    position: absolute;
+    bottom: 0;
+    left: 43.5%;
+    width: 80px;
+    height: 35px;
+    background-color: var(--text);
+    color: var(--sbg);
+    border: 0;
+    outline: none;
+}
